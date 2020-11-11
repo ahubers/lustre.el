@@ -13,5 +13,5 @@ It has been updated to support syntax highlighting for newer lustre/Kind2 constr
 ## Further work
 
 It would be nice to distinguish between multi-line comments delimited by `(*` and `*)` and
-contract imports.
+contract imports. There also seem to be some issues with picking up multi-line comments in font-lock.
 
