@@ -9,7 +9,6 @@
 ;;; Modified by Alex Hubers (alexander-hubers@uiowa.edu) to just enforce syntax highlighting
 ;;; Date : 11 / 10 / 2020
 
-
 ;;; This file is not part of GNU Emacs
 
 ;;; This program is free software; you can redistribute it and/or modify
@@ -58,7 +57,7 @@
         ("\\<\\(true\\|and\\|or\\|not\\|false\\|xor\\)\\>" . font-lock-reference-face)
 	("\\<\\(bool\\|int\\|real\\)\\(\\^[^ ;,)]+\\)?\\>" .
 font-lock-variable-name-face)
-	("\\(\\<\\(check\\|guarantee\\|assume\\|assert\\|pre\\)\\>\\|->\\)" .
+	("\\(\\<\\(require\\|ensure\\|check\\|guarantee\\|assume\\|assert\\|pre\\)\\>\\|->\\)" .
 font-lock-function-name-face)))
 
 
